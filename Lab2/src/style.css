@@ -1,0 +1,81 @@
+header {
+  background-color: #dbfcff;
+  height: 800px;
+}
+.header-nav {
+  background-color: #dbfcff;
+}
+.header-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.header-nav ul li {
+  padding: 10px 0px;
+  list-style: none;
+}
+.header-nav ul li a {
+  color: #00356d;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-menu__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-menu__logo img {
+  height: 100px;
+  width: 100px;
+}
+.header-menu__logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #00356d;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-menu__logo-text p {
+  line-height: 5px;
+}
+.header-menu__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #00356d;
+  text-align: center;
+}
+.header-menu__link p span {
+  color: pink;
+}
+.header-menu__link-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.header-menu__link-icon a img {
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+}
+.header-menu__phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #00356d;
+  text-align: right;
+}
+.header-menu__phone a {
+  color: #ffa3df !important;
+}
